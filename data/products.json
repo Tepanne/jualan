@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1741082422872,
+    "name": "Wajik",
+    "price": 4000,
+    "description": "Mendapatkan 4 Wajik",
+    "ingredients": "-",
+    "stock": 15,
+    "image": "/uploads/1741083027777-images_(4).jpeg"
+  },
+  {
+    "id": 1741091709038,
+    "name": "Cimol ",
+    "price": 2000,
+    "description": "Mendapatkan 10 biji cimol/Rp.2000",
+    "ingredients": "-",
+    "stock": 50,
+    "image": "/uploads/1741091709025-images_(1).webp"
+  }
+]

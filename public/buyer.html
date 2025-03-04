@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Munch Resto - Buyer Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo-area">
+      <img src="images/logo.png" alt="Logo" class="logo">
+      <h1>Kedai Maklimah Biadap</h1>
+    </div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Products</a>
+      <a href="#">Blog</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="container-desktop">
+      <div class="hero-text">
+        <h2>Enjoy Delicious Food <br> In Your Healthy Life</h2>
+        <p>We Provide Best Services</p>
+        <button class="btn-hero">Know More</button>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero.jpg" alt="Hero Food Image">
+        <div class="price-tag">Gado Gado <br>Rp.12.000</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POPULAR FOOD -->
+  <section class="popular-food">
+    <div class="container-desktop">
+      <h2>Our Today's Best Popular Food</h2>
+      <div class="popular-layout">
+        <aside class="category-sidebar">
+          <ul>
+            <li>Italian Food</li>
+            <li>Jawa Food</li>
+          </ul>
+        </aside>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DELICIOUS MENU -->
+  <section class="menu-section" id="menu-section">
+    <div class="container-desktop">
+      <h2>Delicious Menu</h2>
+      <div id="product-list" class="product-list"></div>
+    </div>
+  </section>
+
+  <!-- KERANJANG BELANJA -->
+  <section class="cart-section">
+    <div class="container-desktop">
+      <h2>Keranjang Belanja</h2>
+      <ul id="cart-items" class="cart-list"></ul>
+      <div class="btn-group">
+        <button id="checkout-button">Checkout</button>
+        <button id="cancel-order-button">Batalkan Pesanan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATUS PESANAN -->
+  <section class="status-section">
+    <div class="container-desktop">
+      <h2>Status Pesanan</h2>
+      <button id="refresh-status-button">Refresh Status Pesanan</button>
+      <ul id="my-orders" class="orders-list"></ul>
+    </div>
+  </section>
+
+  <script src="buyer.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Munch Resto - Choose Dashboard</title>
+  <!-- Agar responsive di perangkat mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- BAGIAN HEADER/HERO -->
+  <header class="hero-home">
+    <nav class="navbar">
+      <div class="container-desktop navbar-inner">
+        <div class="logo-area">
+          <!-- Ganti images/logo.png dengan logo Anda -->
+          <img src="images/logo.png" alt="Logo" class="logo">
+          <h1>Munch Resto</h1>
+        </div>
+        <div class="nav-links">
+          <!-- Tambahkan link lain jika diperlukan -->
+        </div>
+      </div>
+    </nav>
+    <div class="hero-home-content container-desktop">
+      <h1>Enjoy Delicious Food in Your Healthy Life</h1>
+      <p>We Provide Best Services</p>
+      <div class="selection-buttons">
+        <!-- Tombol Buyer -->
+        <button class="choose-btn buyer-btn">
+          <span class="btn-text">I'm a Buyer</span>
+        </button>
+        <!-- Tombol Seller -->
+        <button class="choose-btn seller-btn">
+          <span class="btn-text">I'm a Seller</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    // Event listener untuk tombol Buyer
+    document.querySelector('.buyer-btn').addEventListener('click', () => {
+      window.location.href = 'buyer.html';
+    });
+    // Event listener untuk tombol Seller
+    document.querySelector('.seller-btn').addEventListener('click', () => {
+      window.location.href = 'seller.html';
+    });
+  </script>
+</body>
+</html>
